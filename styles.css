@@ -1,0 +1,27 @@
+/* initialisation */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* variable */
+:root {
+  --white: #fff;
+  --black: #000;
+  --red: #be1a1a;
+  --gold: #f3c623;
+  --gray: #eee;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--white);
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
