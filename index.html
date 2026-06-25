@@ -1,28 +1,40 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Product Cart</title>
   </head>
   <body>
     <main>
       <h1>Product Cart</h1>
       <article>
+        <!-- Image de la montre -->
         <div class="img-container">
           <img
             src="./images/28442-removebg-preview.png"
             alt="montre en argent"
           />
-          <span class="promo">20%</span>
+          <span class="promo">-20%</span>
         </div>
+        <!-- Marque de la montre -->
         <h2>Classic London</h2>
-        <p>
-          <span class="old-price">$450</span><span class="new-price">$360</span>
+        <!-- Prix de la montre -->
+        <p class="price">
+          <span class="price-old">$450.00</span><span class="price-new">$360.00</span>
         </p>
-        <button class="btn">Buy Now</button>
-        <button class="btn">Add to Cart</button>
+        <!-- Different actions -->
+        <div class="btn-container">
+          <button class="btn">Buy Now</button>
+          <button class="btn">Add to Cart</button>
+        </div>
       </article>
     </main>
   </body>
